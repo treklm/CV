@@ -1,0 +1,444 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: #f3f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/*Contacts-sections*/
+
+.contacts-section {
+  position: absolute;
+  top: 35px;
+  right: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.telegram-icon,
+.viber-icon,
+.phone-icon {
+  width: 18px;
+  height: 18px;
+  padding-right: 12px;
+}
+
+telegram-icon,
+.phone-icon {
+  margin-right: 15px;
+}
+
+.phone-icon {
+  margin-right: 20px;
+}
+
+.phone-link-number {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.telegram-link,
+.viber-link,
+.phone-link-icon {
+  text-decoration: none;
+}
+
+/*Experience-sections*/
+.experience-sections {
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-photo {
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.linkedln-icon {
+  margin-right: 15px;
+}
+
+.experience-description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.experience-description-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.experience-description-text-first {
+  margin-bottom: 8px;
+}
+
+.technologies-contanier {
+  margin-bottom: 50px;
+}
+
+.js-icon,
+.react-icon {
+  margin-right: 15px;
+}
+
+.my-projects-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eb5757;
+  text-decoration-line: underline;
+}
+
+/*My info sections*/
+.my-info-section {
+  width: 33%;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-profession {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #333333;
+  margin-bottom: 35px;
+}
+
+.my-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.my-location,
+.my-workstyle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #f4f4f4;
+  background: #2657d7;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.my-workstyle {
+  margin-bottom: 100px;
+}
+
+.my-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 16px;
+}
+
+.my-skills-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.my-skills-list {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+.my-skills-item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f68ed;
+}
+
+.my-skills-text {
+  color: #4f4f4f;
+}
+
+/*Project price section*/
+
+.project-price-section {
+  width: 33%;
+}
+
+.project-price-form {
+  padding: 40px;
+  background: #fffefe;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.project-price-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2657d7;
+  margin-bottom: 50px;
+}
+
+.project-type-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.project-price-form-field-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.project-price-select {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+  padding-bottom: 8px;
+}
+
+.active-type-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.active-type-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.active-type-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-left: 20px;
+}
+
+.active-type-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.project-price-sum {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.currency {
+  color: #2657d7;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.project-price-container {
+  margin-bottom: 30px;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fffdfd;
+  background: #2657d7;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+/*Modals sections*/
+
+.modal-bgd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(51 51 51 /90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.modal-container {
+  background: #ffffff;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 110px 40px;
+  width: 364px;
+  height: 604px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.modal-close-button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2657d7;
+  margin-bottom: 40px;
+}
+
+.user-email-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  width: 100%;
+}
+
+.modal-container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.user-email {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.email-input-container {
+  margin-bottom: 115px;
+  height: 115px;
+}
+
+.email-error-text {
+  color: #ee1414;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  display: none;
+}
+
+.email-input-container-error .email-error-text {
+  display: block;
+}
+
+.email-input-container-error .user-email {
+  border-bottom: 1px solid #eb5757;
+}
+
+.modal-submit-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fffdfd;
+  background: #2657d7;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.modal-icon {
+  margin-bottom: 35px;
+}
+
+.modal-success-message {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2657d7;
+}
+
+.modal-container-success {
+  justify-content: center;
+}
+
+.modal-success-icon {
+  margin-bottom: 35px;
+}
